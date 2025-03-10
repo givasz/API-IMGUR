@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur API - Galeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Galeria de Imagens do Imgur</h1>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="uploadImage()">Enviar Imagem</button>
+    <button onclick="toggleFavorites()">Ver Favoritos</button>
+    
+    <h2 id="galleryTitle">Imagens do Imgur</h2>
+    <div id="gallery"></div> 
+
+    <script src="config.js"></script>  <!-- Pra esconder minha chave no github -->
+    <script src="script.js"></script>
+</body>
+</html>
